@@ -14,15 +14,15 @@ Items on the to do list can be deleted.
 
 Extract all files, open up your terminal and follow these instructions:
 
--cd into project folder
--fill in the following details in the .env file:
-    PORT= 
-    DATABASE=
-    JWT_SECRET= 
-    GOOGLE_CLIENT_ID=
--run command "npm install to install all necessary node modules
--cd into the client folder
--fill in the following details in the .env file:
-    REACT_APP_GOOGLE_CLIENT_ID
--run command "npm install" 
--cd back into project folder and run command "npm run dev" - this will launch both the backend and the frontend concurrently
+* cd into project folder
+* fill in the following details in the .env file:
+    * PORT= 
+    * DATABASE=
+    * JWT_SECRET= 
+    * GOOGLE_CLIENT_ID=
+* run command "npm install to install all necessary node modules
+* cd into the client folder
+* fill in the following details in the .env file:
+    * REACT_APP_GOOGLE_CLIENT_ID
+* run command "npm install" 
+* cd back into project folder and run command "npm run dev" - this will launch both the backend and the frontend concurrently
